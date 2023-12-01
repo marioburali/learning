@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 body {
-    background: linear-gradient(rgb(111, 204, 111), rgb(255, 255, 255));
+    background: linear-gradient(rgb(170, 225, 170), rgb(255, 255, 255));
+    background-attachment: fixed;
     text-align: justify;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
