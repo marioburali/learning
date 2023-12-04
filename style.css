@@ -29,6 +29,9 @@ h2 {
     color: rgb(177, 134, 26);
 
 }
+p {
+    text-indent: 30px;
+}
 article {
     background: lightsteelblue;
 }
