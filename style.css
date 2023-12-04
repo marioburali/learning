@@ -1,18 +1,18 @@
 @charset "UTF-8";
 
 body {
-    background: linear-gradient(rgb(170, 225, 170), rgb(255, 255, 255));
-    background-attachment: fixed;
+    
     text-align: justify;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
 main {
-    background-color: white;
+    
     margin: auto;
     width: 1400px;
     border-radius: 10px;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.484);
+
 
 
 }
@@ -27,4 +27,7 @@ h1 {
 h2 {
     color: rgb(177, 134, 26);
 
+}
+article {
+    background: lightsteelblue;
 }
