@@ -10,8 +10,7 @@ main {
     
     margin: auto;
     width: 1400px;
-    border-radius: 10px;
-    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.484);
+    
 
 
 
@@ -19,9 +18,9 @@ main {
 
 h1 {
     font-family: 'Nova Square';
-    color: rgb(16, 127, 16);
-    background-color: lemonchiffon;
-    border-radius: 10px;
+    left: 200px;
+    top: 50px;
+    
     
     
 }
@@ -31,4 +30,10 @@ h2 {
 }
 article {
     background: lightsteelblue;
+}
+
+img#logobola {
+    position: relative;
+    left: 10px;
+    
 }
