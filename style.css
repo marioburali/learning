@@ -34,6 +34,7 @@ p {
 }
 article {
     background: lightsteelblue;
+    display: inline-block;
 }
 
 img#logobola {
