@@ -31,6 +31,7 @@ h2 {
 }
 p {
     text-indent: 30px;
+    text-align: left;
 }
 article {
     background: lightsteelblue;
