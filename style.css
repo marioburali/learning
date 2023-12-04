@@ -18,6 +18,7 @@ main {
 }
 
 h1 {
+    font-family: 'Nova Square';
     color: rgb(16, 127, 16);
     background-color: lemonchiffon;
     border-radius: 10px;
