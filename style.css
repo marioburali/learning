@@ -10,7 +10,7 @@ body {
 main {
     
     margin: auto;
-    width: 1400px;
+    
     
 
 
@@ -19,14 +19,15 @@ main {
 
 h1 {
     font-family: 'Nova Square';
-    left: 200px;
     top: 50px;
+    text-align: center;
     
     
     
 }
 h2 {
     color: rgb(177, 134, 26);
+    text-align: center;
 
 }
 p {
