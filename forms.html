@@ -21,8 +21,8 @@
     <p>Para que o navegador entenda a semântica de cada campo a ser preenchido, usa-se o LABEL</p>
     <img src="print_form1.png" alt="print">
 
-    <p><label for="nome">Nome:</label> 
-        <input type="text" name="nome" id="nome"></p>
+    <p><label for="idnome">Nome:</label> 
+        <input type="text" name="nome" id="idnome" required></p>
     <p><label for="sobrenome">Sobrenome:</label>
         <input type="text" name="sobrenome" id="sobrenome"></p>
     <p><input type="submit" value="Enviar"></p>
@@ -32,7 +32,13 @@
     <h2>Método GET e POST</h2>
     <p>Dentro da tag FORM é possível escolher o método através do parâmetro METHOD, selecionando GET (padrão) ou POST.</p>
     <p>GET: o que for preenchido nos campos, ficará visível na URL.</p>
-    <p>POST: Não ficará visível na URL.</p>
+    <p>POST: Não ficará visível na URL.</p><br>
+
+    <h2>Configurações de Campos</h2>
+    <p>Para campos obrigatórios, use o parâmetro REQUIRED dentro da TAG INPUT. </p>
+    <p>Para quantidade de dígitos usar MINLENGTH e MAXLENGHT. </p>
+    <p>O tamanho da caixa pode ser definido pelo SIZE.</p>
+    <p>Para textos dentro da caixa (ex. digite aqui seu nome) usa-se PLACEHOLDER.</p>
 
  </form>   
 </body>
