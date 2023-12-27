@@ -62,6 +62,66 @@
     <input type="submit" value="Enviar">
     <input type="reset" value="Limpar">
 
+    <h2>Radio</h2>
+    <p>Para criar RADIO, ou seja, campo de apenas uma escolha, deve-se usar o TYPE RADIO na TAG INPUT e usar o mesmo NAME para todas as opções:</p>
+    <img src="print_radio.png" alt="print radio">
+    <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="idmasc"> Masculino
+        <input type="radio" name="sexo" id="idfem"> Feminino
+        <input type="radio" name="sexo" id="idoutro"> Outro
+    </fieldset> 
+<h2>Select e Datalist</h2>
+        <label for="estados">(SELECT) Selecione um estado:</label>
+    <select id="estados" name="estados">
+        <option value="">Selecione um estado</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+    </select><br><br>
+    <img src="print_select.png" alt="print_select">
+    <p> Também podemos usar LIST com DATALIST:</p>
+    <label for="profissao">Escolha uma profissão:</label>
+    <input list="profissoes" id="profissao" name="profissao">
+    <datalist id="profissoes">
+      <option value="Engenheiro">
+      <option value="Médico">
+      <option value="Professor">
+      <option value="Designer">
+      <option value="Advogado">
+    </datalist><br>
+    <input type="submit" value="Enviar">
+    <br><br>
+    <img src="print_datalist.png" alt="print datalist">
+
+    <h2>Área de Texto</h2>
+    <p>É possível utilizar a TAG TEXTAREA para colocar um campo em que o usário pode escrever uma mensagem maior:</p>
+    <label for="idmensagem">Escreva uma mensagem:</label><br>
+    <textarea name="mensagem" id="idmensagem" cols="30" rows="10"></textarea>
  </form>   
 </body>
 </html>
