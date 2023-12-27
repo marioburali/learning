@@ -10,11 +10,24 @@
 </head>
 <body>
     <h1>Formulário 01</h1>
- <form>
+ <form action="cadastro.php">
     <p>Nome: <input type="text" name="nome" id="nome"></p>
     <p>Sobrenome: <input type="text"></p>
     <p><input type="submit" value="Enviar"></p>
-    <p>OBS: Todo input é recomendado ter NAME e ID.</p>
+    <p>OBS: Todo input é recomendado ter NAME e ID.</p><br>
+
+
+    <h2>Label</h2>
+    <p>Para que o navegador entenda a semântica de cada campo a ser preenchido, usa-se o LABEL</p>
+    <img src="print_form1.png" alt="print">
+
+    <p><label for="nome">Nome:</label> 
+        <input type="text" name="nome" id="nome"></p>
+    <p><label for="sobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" id="sobrenome"></p>
+    <p><input type="submit" value="Enviar"></p>
+
+    <p>OBS:No LABEL usa-se o ID no FOR.</p>
 
  </form>   
 </body>
