@@ -40,6 +40,28 @@
     <p>O tamanho da caixa pode ser definido pelo SIZE.</p>
     <p>Para textos dentro da caixa (ex. digite aqui seu nome) usa-se PLACEHOLDER.</p>
 
+    <h2>Divisão de Campos</h2>
+    <p>Usa-se a tag FIELDSET para agrupar campos a serem preenchidos nos formulários.</p>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p><label for="idnome">Nome:</label>
+                <input type="text" name="nome" id="idnome" required></p>
+            <p><label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome"></p>
+            <p><input type="submit" value="Enviar"></p>
+        </fieldset>
+
+    <h2>Checkbox</h2>
+    <fieldset>
+        <legend>Esportes Favoritos</legend>
+        <input type="checkbox" name="fut" id="idfut"> <label for="idfut">Futebol</label>
+        <input type="checkbox" name="tennis" id="idtennis"> <label for="idtennis">Tennis</label>
+        <input type="checkbox" name="basket" id="idbasket"> <label for="idbasket">Basquete</label>
+        <input type="checkbox" name="volei" id="idvolei"> <label for="idvolei">Vôlei</label>
+
+
+    </fieldset>
+
  </form>   
 </body>
 </html>
