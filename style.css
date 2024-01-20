@@ -26,13 +26,19 @@ main {
     
     margin: auto;
     padding: 5%;
-    
-    
-
-
+}
+.container{
+    display: flex;
 
 }
-
+.lado-esquerdo{
+    width: 90%;
+    
+}
+.lado-direito{
+   margin: auto;
+   padding: 15px;
+}
 h1 {
     font-family: 'Nova Square';
     top: 50px;
