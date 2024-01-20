@@ -66,6 +66,17 @@ img#logobola {
     left: 10px;
     
 }
-footer p{
+footer a, footer p{
     text-align: center;
+    text-decoration: none;
+    color: cadetblue;
+}
+
+footer a:hover{
+    font-weight: bold;
+    border: 2px solid steelblue;
+    background-color: steelblue;
+    border-radius: 100px;
+    padding: 5px;
+    color: aliceblue;
 }
