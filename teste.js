@@ -20,7 +20,7 @@ if (age >= 18){
     console.log('Menor de idade');
 }
 
-const grade = 45
+const grade = 95
 let message
 
 if (grade >= 80) {
@@ -33,3 +33,27 @@ else {
     message = 'Reprovado'
 }
 console.log(message);
+
+const currentHour = 6
+let texto;
+
+if (currentHour >= 22) {
+    texto = 'Vá dormir'
+}
+else if (currentHour >= 18){
+    texto = 'Rango da noite!'
+}
+else if (currentHour >= 14){
+    texto = 'Hora do bolo'
+}
+else if (currentHour >= 11){
+    texto = 'Hora do almoço'
+}
+else if (currentHour >= 4){
+    texto = 'Cafézinho'
+}
+else {
+    texto = 'nada'
+}
+
+console.log(texto);
